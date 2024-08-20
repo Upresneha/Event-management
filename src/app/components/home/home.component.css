@@ -1,0 +1,132 @@
+.container {
+  /* background-color: rgb(238, 194, 136); */
+  height: 100%;
+  margin: 3px;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.right-content .toolbar-button {
+  margin-left: 16px;
+}
+.main-content {
+  display: flex;
+  height: 65%;
+  margin-top: 0.5rem;
+  background-color: rgb(209, 188, 169);
+  position: relative;
+
+  .left-texts {
+    position: absolute;
+
+    width: 35%;
+    height: 45%;
+    padding: 8px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 5px solid rgb(138, 84, 33);
+    text-align: center;
+    margin-top: 23rem;
+    margin-left: 30rem;
+    background-color: whitesmoke;
+
+    .heading {
+      font-size: xx-large;
+      margin: 8px;
+      font-family: "Playwrite MX", cursive;
+    }
+    .context {
+      font-size: x-large;
+      margin: 8px;
+      font-family: "Playwrite MX", cursive;
+    }
+  }
+  .image-right,
+  .image-left {
+    display: flex;
+    width: 100%;
+    margin: 8px;
+    border-radius: 6px;
+
+    border: 5px solid rgb(236, 234, 232);
+
+    /* border: 1px solid black; */
+    .image1,
+    .image2 {
+      margin: 8px;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .image1 {
+      background-image: url("../../../assets/config/Cateoring.jpg");
+    }
+    .image2 {
+      background-image: url("../../../assets/config/wedding.jpg");
+    }
+  }
+}
+.footer1 {
+  /* margin-top: 0.5rem; */
+  height: 25%;
+  margin: 3px;
+  width: 100%;
+  display: flex;
+  /* border: 1px solid black; */
+  background-color: rgb(125, 75, 29);
+  .text {
+    width: 30%;
+    margin-top: 10rem;
+
+    font-size: large;
+    margin: 16px;
+    font-family: "Playwrite MX", cursive;
+    color: whitesmoke;
+  }
+  .email {
+    font-size: small;
+    margin: 6rem;
+    font-family: "Playwrite MX", cursive;
+    margin-top: 9rem;
+    color: whitesmoke;
+  }
+  .email span {
+    margin-right: 10px;
+  }
+
+  .social-icon {
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+  }
+
+  .social-icon:hover {
+    color: whitesmoke;
+  }
+
+  .image {
+    position: absolute;
+    bottom: 104px;
+    right: 2px;
+    width: 22%;
+    height: 12%;
+    z-index: 10;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    span {
+      color: white;
+    }
+    .flower {
+      border-radius: 1.5rem;
+      align-items: center;
+      text-align: center;
+    }
+
+    /* background-image: url("../../../assets/config/"); */
+  }
+}

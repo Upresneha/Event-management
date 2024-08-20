@@ -1,0 +1,31 @@
+<app-toolbar></app-toolbar>
+
+<div class="background-image"></div>
+<div class="signup-container">
+  <mat-card>
+    <mat-card-content>
+      <span class="logo">Bella Events</span>
+      <form [formGroup]="signupForm" (ngSubmit)="onSubmit()">
+        <mat-form-field appearance="fill" class="textfield">
+          <mat-label>Email</mat-label>
+          <input matInput type="email" formControlName="email" required />
+        </mat-form-field>
+
+        <mat-form-field appearance="fill" class="textfield">
+          <mat-label>Mobile</mat-label>
+          <input matInput formControlName="mobile" type="text" required />
+        </mat-form-field>
+
+        <mat-form-field appearance="fill" class="textfield">
+          <mat-label>Password</mat-label>
+          <input matInput type="password" formControlName="password" required />
+        </mat-form-field>
+        <div class="login">
+          <button mat-raised-button color="primary" type="submit">
+            Signup
+          </button>
+        </div>
+      </form>
+    </mat-card-content>
+  </mat-card>
+</div>

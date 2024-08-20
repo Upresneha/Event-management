@@ -1,0 +1,45 @@
+/* src/app/signup/signup.component.css */
+.background-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/assets/background.jpg"); /* Path to your background image */
+  background-size: cover;
+  background-position: center;
+  filter: blur(10px);
+  z-index: -1;
+}
+
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+mat-card {
+  .logo {
+    width: 50px;
+    height: auto;
+    font-family: "Playwrite MX", cursive;
+    margin: 35px;
+    font-size: 23px;
+  }
+  width: 400px;
+  padding: 20px;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Semi-transparent white background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.textfield {
+  width: 300px;
+}
